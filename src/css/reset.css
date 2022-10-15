@@ -1,0 +1,14 @@
+*{
+    margin: 0px; /* Espaçamento externo */
+    padding: 0px; /* Espaçamento interno */
+    box-sizing: border-box; /* Ajuda a trabalhar com bordar, margens, ... */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
