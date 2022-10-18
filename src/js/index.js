@@ -1,4 +1,8 @@
 /*
+
+    Debug de JavaScript passo a passo no navegador. Logo, irá executar linha a linha o código.
+
+
     OBJETIVO - quando clicarmos na aba temos que mostrar o conteúdo da aba que foi clicada pelo usuário e esconder o conteúdo da aba anterior.
 
     - Passo 1 - Pegar os elementos que representam as abas no HTML.
@@ -18,14 +22,16 @@
     //console.log(document);
     //console.log(document.querySelectorAll(".aba"));
     const abas = document.querySelectorAll(".aba");
-    console.log(abas);
+    //console.log(abas);
     // Estou buscando todos os elementos do document 'HTML' selecionando tudo que estiver com o termo aba 'class'. E estou jogando na variavel abas o qual poderá utilizada em todos o JS.
     // const está definindo que o abas é uma constante e não poderá ser alterada. Ou seja, os valores atribuidos nessa variavel não serão alteradas.
 
 
     abas.forEach(aba => {
         // Passo 2 - Identificar o clique no elemento da aba.
-        //console.log(aba);
+        console.log(aba);
+
+
         aba.addEventListener("click", function(){
             //console.log("Clicou na aba", aba);
             
